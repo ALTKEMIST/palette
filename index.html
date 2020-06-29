@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Palette Maker</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row mt-2">
+            <div class="col text-center h3">
+                Palette Maker
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col h5">
+                Initial Color:
+                <input type=color value="" id="colorI">
+            </div>
+            <div class="col h5">
+                Final Color:
+                <input type=color value="" id="colorF">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col h5">
+                Hex:
+                <label id="hex1"></label>
+            </div>
+            <div class="col h5">
+                Hex:
+                <label id="hex2"></label>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col">
+                <button class="btn btn-block btn-outline-success" onclick="make()">MAKE!</button>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-1 offset-1 palbox" id="palt1">
+                &nbsp;
+            </div>
+            <div class="col-1 palbox" id="palt2">
+                &nbsp;
+            </div>
+            <div class="col-1 palbox" id="palt3">
+                &nbsp;
+            </div>
+            <div class="col-1 palbox" id="palt4">
+                &nbsp;
+            </div>
+            <div class="col-1 palbox" id="palt5">
+                &nbsp;
+            </div>
+            <div class="col-1 palbox" id="palt6">
+                &nbsp;
+            </div>
+            <div class="col-1 palbox" id="palt7">
+                &nbsp;
+            </div>
+            <div class="col-1 palbox" id="palt8">
+                &nbsp;
+            </div>
+            <div class="col-1 palbox" id="palt9">
+                &nbsp;
+            </div>
+            <div class="col-1 palbox" id="palt10">
+                &nbsp;
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-10 offset-1 border rounded h4">
+                <div id="colorData">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./public/vendor/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="./public/vendor/popper/popper.min.js"></script>
+    <script src="./public/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="./public/vendor/ntc js/ntc.js"></script>
+    <script src="./public/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.palbox{
+    /*border: 1px solid black;*/
+    min-height: 30px;
+    cursor: cell;
+}
+
+.palbox:hover{
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.57);
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.57);
+    transform: scale(1.1);
+}
